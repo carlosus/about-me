@@ -45,7 +45,7 @@ h1 {
 
 img {
     float: right;
-    border-radius: 800px;
+    border-radius: 1000px;
 }
 
 #img {
@@ -55,6 +55,10 @@ img {
 #liBody {
     color: #fff;
     font-size: 14px;
+}
+
+article {
+    padding-bottom: 15px;
 }
 
 footer {
