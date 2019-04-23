@@ -5,8 +5,6 @@
     font-family: Raleway, sans-serif;
     font-weight: bold;
     text-align: center;
-    background-color: ;
-    border-radius: 0px;
     padding-bottom: 100px;
 }
 
@@ -34,7 +32,8 @@
 body {
     font-family: Raleway, sans-serif;
     background-color: #ec4026;
-    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
@@ -44,12 +43,14 @@ h1 {
 }
 
 img {
-    float: right;
     border-radius: 1000px;
 }
 
 #img {
-    padding-left: 80px;
+    float: right;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
 }
 
 #liBody {
@@ -58,7 +59,7 @@ img {
 }
 
 article {
-    padding-bottom: 15px;
+    padding-bottom: 60px;
 }
 
 footer {
