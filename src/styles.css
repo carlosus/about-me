@@ -58,11 +58,40 @@ img {
     font-size: 14px;
 }
 
-article {
-    padding-bottom: 60px;
+section {
+    padding-bottom: 40px;
 }
 
 footer {
     text-align: center;
 }
 
+label, button {
+    font-family: Raleway, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bolder;
+}
+
+input {
+    height: 25px;
+    width: 220px;
+    border: 1.5px solid;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+button {
+    border: 3px solid #fcd86c;
+    background-color: #ffcc33;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+}
