@@ -7,9 +7,10 @@ const trickInput = document.getElementById('trick-answer');
 const quizResult = document.getElementById('quiz-result');
 
 submitButton.addEventListener('click', () => {
-    const heartAnswer = heartInout.value;
+    const heartAnswer = heartInput.value;
     const hometownAnswer = hometownInput.value;
     const cityAnswer = cityInput.value;
     const dislikeAnswer = dislikeInput.value;
     const trickAnswer = trickInput.value;
+    console.log(heartAnswer, hometownAnswer, cityAnswer, dislikeAnswer, trickAnswer);
 });
