@@ -95,3 +95,15 @@ button {
     color: #FFF;
     text-align: center;
 }
+
+#quiz-result {
+    font-size: 1.6em;
+}
+
+.bad {
+    color: #fff;
+}
+
+.good {
+    color: #70ff33;
+}
