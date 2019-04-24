@@ -1,3 +1,5 @@
+import scoreAnswers from './score-answers.js';
+
 const submitButton = document.getElementById('submit-button');
 const heartInput = document.getElementById('heart-answer');
 const hometownInput = document.getElementById('hometown-answer');
@@ -12,5 +14,11 @@ submitButton.addEventListener('click', () => {
     const cityAnswer = cityInput.value;
     const dislikeAnswer = dislikeInput.value;
     const trickAnswer = trickInput.value;
-    console.log(heartAnswer, hometownAnswer, cityAnswer, dislikeAnswer, trickAnswer);
+
+    const score = scoreAnswers(heartAnswer, hometownAnswer, cityAnswer, dislikeAnswer, trickAnswer);
+
+    const message = 'You got ' + score + '/5 correct!';
+
+    quizResult.textContent = message;
 });
+
