@@ -10,19 +10,19 @@
 <body>
     <header>
         <h1>Carlos</h1>
-        <div id="menu">
+        <div id='menu'>
                 <ul>
-                    <li><a href="#aboutMe">ABOUT ME</a></li>
-                    <li><a href="#likes">LIKES</a></li>
-                    <li><a href="#dislikes">DISLIKES</a></li>
+                    <li><a href='#aboutMe'>ABOUT ME</a></li>
+                    <li><a href='#likes'>LIKES</a></li>
+                    <li><a href='#dislikes'>DISLIKES</a></li>
                 </ul>
         </div>
     </header>
-    <div id="img">
-            <img src="./src/carlosLabPic.png" alt="Carlos in Arizona" width="340px">
+    <div id='img'>
+            <img src='./src/carlosLabPic.png' alt='Carlos in Arizona' width="340px">
     </div>
-    <article>
-        <h2 id="aboutMe">ABOUT ME</h2>
+    <section>
+        <h2 id='aboutMe'>ABOUT ME</h2>
         <p>Phoenix, Arizona is the place I'm proud to call home.
             Growing up in the desert developed my appreciation for
             saturated sunsets, cacti, and endless sunshine. 
@@ -31,13 +31,13 @@
             For a while, I had my eye set on Portland and Alchemy Code Lab 
             was a good enough reason to make the move to the PNW. So now I'm here. YOLO, right!
         </p>
-    </article>
-    <article>
-        <h2 id="likes">LIKES</h2>
+    </section>
+    <section>
+        <h2 id='likes'>LIKES</h2>
         <p>I like a lot of things, but there are some things that I like
             more than others. If we're talking about the things I like the most, 
             these are the things that I really, really like:
-            <ol id="liBody">
+            <ol id='liBody'>
                 <li>Burgers</li>
                 <li>Sunshine</li>
                 <li>Plants</li>
@@ -46,11 +46,11 @@
             </ol>
             Burgers are the way to my heart. 
         </p>
-    </article>
-    <article>
-        <h2 id="dislikes">DISLIKES</h2>
+    </section>
+    <section>
+        <h2 id='dislikes'>DISLIKES</h2>
         <p>These are some of the things that I don't like as much:
-            <ul id="liBody">
+            <ul id='liBody'>
                 <li>Cold Weather</li>
                 <li>Small Portions of Fries</li>
                 <li>Artichoke Dip</li>
@@ -58,9 +58,37 @@
                 <li>Crocs</li>
             </ul>
         </p>
-    </article>
+    </section>
+    <section>
+        <h2>Issa Quiz</h2>
+        <div>
+            <label for='heart-answer'>What is the way to my heart?</label>
+            <input id='heart-answer' required>
+        </div>
+        <div>
+            <label for='hometown-answer'>Where did I grow up?</label>
+            <input id='hometown-answer' required>
+        </div>
+        <div>
+            <label for='city-answer'>In what other city did I live?</label>
+            <input id='city-answer' required>
+        </div>
+        <div>
+            <label for='dislike-answer'>What dislike is listed last?</label>
+            <input id='dislike-answer' required>
+        </div>
+        <div>
+            <label for='trick-answer'>Do you think I'm cute?</label>
+            <input id='trick-answer' required>
+        </div>
+        <div>
+            <button id='submit-button'>Submit</button>
+        </div>
+        <p id='quiz-result'>Take the Quiz to get a Score!</p>
+    </section>
     <footer>
             &copy; 2019 Carlos Us
     </footer>
+    <script type='module' src='./src/index.js'></script>
 </body>
 </html>
